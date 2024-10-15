@@ -1,0 +1,12 @@
+class Solution {
+    public static int largest(int[] arr) {
+        // code here
+        int maxEle = -1;
+        for(int ele: arr){
+            maxEle = Math.max(maxEle, ele);
+        }
+        return maxEle;
+    }
+}
+
+/*** PROBLEM LINK - https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card    ***/

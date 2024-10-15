@@ -1,0 +1,16 @@
+class Solution {
+    public void reverseArray(int arr[]) {
+        // code here
+        int left = 0, right = arr.length-1;
+        
+        while(left < right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left += 1;
+            right -= 1;
+        }
+    }
+}
+
+/*** PROBLEM LINK - https://www.geeksforgeeks.org/problems/reverse-an-array/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card ***/
